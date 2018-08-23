@@ -5,7 +5,7 @@ exports[`renders ./components/steps/demo/customized-progress-dot.md correctly 1`
   class="ant-steps ant-steps-horizontal ant-steps-label-vertical ant-steps-dot"
 >
   <div
-    class="ant-steps-item ant-steps-item-finish"
+    class="ant-steps-item ant-steps-item-process"
   >
     <div
       class="ant-steps-item-tail"
@@ -37,7 +37,7 @@ exports[`renders ./components/steps/demo/customized-progress-dot.md correctly 1`
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-process"
+    class="ant-steps-item ant-steps-item-wait"
   >
     <div
       class="ant-steps-item-tail"
@@ -140,7 +140,7 @@ exports[`renders ./components/steps/demo/error.md correctly 1`] = `
   class="ant-steps ant-steps-horizontal ant-steps-label-horizontal"
 >
   <div
-    class="ant-steps-item ant-steps-item-finish ant-steps-next-error"
+    class="ant-steps-item ant-steps-item-error ant-steps-next-error"
   >
     <div
       class="ant-steps-item-tail"
@@ -149,7 +149,7 @@ exports[`renders ./components/steps/demo/error.md correctly 1`] = `
       class="ant-steps-item-icon"
     >
       <span
-        class="ant-steps-icon anticon anticon-check"
+        class="ant-steps-icon anticon anticon-cross"
       />
     </div>
     <div
@@ -168,7 +168,7 @@ exports[`renders ./components/steps/demo/error.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-error"
+    class="ant-steps-item ant-steps-item-wait"
   >
     <div
       class="ant-steps-item-tail"
@@ -177,8 +177,10 @@ exports[`renders ./components/steps/demo/error.md correctly 1`] = `
       class="ant-steps-item-icon"
     >
       <span
-        class="ant-steps-icon anticon anticon-cross"
-      />
+        class="ant-steps-icon"
+      >
+        2
+      </span>
     </div>
     <div
       class="ant-steps-item-content"
@@ -413,7 +415,7 @@ exports[`renders ./components/steps/demo/progress-dot.md correctly 1`] = `
   class="ant-steps ant-steps-horizontal ant-steps-label-vertical ant-steps-dot"
 >
   <div
-    class="ant-steps-item ant-steps-item-finish"
+    class="ant-steps-item ant-steps-item-process"
   >
     <div
       class="ant-steps-item-tail"
@@ -445,7 +447,7 @@ exports[`renders ./components/steps/demo/progress-dot.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-process"
+    class="ant-steps-item ant-steps-item-wait"
   >
     <div
       class="ant-steps-item-tail"
@@ -516,7 +518,7 @@ exports[`renders ./components/steps/demo/simple.md correctly 1`] = `
   class="ant-steps ant-steps-horizontal ant-steps-label-horizontal"
 >
   <div
-    class="ant-steps-item ant-steps-item-finish"
+    class="ant-steps-item ant-steps-item-process"
   >
     <div
       class="ant-steps-item-tail"
@@ -525,8 +527,10 @@ exports[`renders ./components/steps/demo/simple.md correctly 1`] = `
       class="ant-steps-item-icon"
     >
       <span
-        class="ant-steps-icon anticon anticon-check"
-      />
+        class="ant-steps-icon"
+      >
+        1
+      </span>
     </div>
     <div
       class="ant-steps-item-content"
@@ -544,7 +548,7 @@ exports[`renders ./components/steps/demo/simple.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-process"
+    class="ant-steps-item ant-steps-item-wait"
   >
     <div
       class="ant-steps-item-tail"
@@ -611,7 +615,7 @@ exports[`renders ./components/steps/demo/small-size.md correctly 1`] = `
   class="ant-steps ant-steps-horizontal ant-steps-small ant-steps-label-horizontal"
 >
   <div
-    class="ant-steps-item ant-steps-item-finish"
+    class="ant-steps-item ant-steps-item-process"
   >
     <div
       class="ant-steps-item-tail"
@@ -620,8 +624,10 @@ exports[`renders ./components/steps/demo/small-size.md correctly 1`] = `
       class="ant-steps-item-icon"
     >
       <span
-        class="ant-steps-icon anticon anticon-check"
-      />
+        class="ant-steps-icon"
+      >
+        1
+      </span>
     </div>
     <div
       class="ant-steps-item-content"
@@ -634,7 +640,7 @@ exports[`renders ./components/steps/demo/small-size.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-process"
+    class="ant-steps-item ant-steps-item-wait"
   >
     <div
       class="ant-steps-item-tail"
@@ -692,7 +698,7 @@ exports[`renders ./components/steps/demo/step-next.md correctly 1`] = `
     class="ant-steps ant-steps-horizontal ant-steps-label-horizontal"
   >
     <div
-      class="ant-steps-item ant-steps-item-process"
+      class="ant-steps-item ant-steps-item-wait"
     >
       <div
         class="ant-steps-item-tail"
@@ -792,7 +798,7 @@ exports[`renders ./components/steps/demo/vertical.md correctly 1`] = `
   class="ant-steps ant-steps-vertical"
 >
   <div
-    class="ant-steps-item ant-steps-item-finish"
+    class="ant-steps-item ant-steps-item-process"
   >
     <div
       class="ant-steps-item-tail"
@@ -801,8 +807,10 @@ exports[`renders ./components/steps/demo/vertical.md correctly 1`] = `
       class="ant-steps-item-icon"
     >
       <span
-        class="ant-steps-icon anticon anticon-check"
-      />
+        class="ant-steps-icon"
+      >
+        1
+      </span>
     </div>
     <div
       class="ant-steps-item-content"
@@ -820,7 +828,7 @@ exports[`renders ./components/steps/demo/vertical.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-process"
+    class="ant-steps-item ant-steps-item-wait"
   >
     <div
       class="ant-steps-item-tail"
@@ -887,7 +895,7 @@ exports[`renders ./components/steps/demo/vertical-small.md correctly 1`] = `
   class="ant-steps ant-steps-vertical ant-steps-small"
 >
   <div
-    class="ant-steps-item ant-steps-item-finish"
+    class="ant-steps-item ant-steps-item-process"
   >
     <div
       class="ant-steps-item-tail"
@@ -896,8 +904,10 @@ exports[`renders ./components/steps/demo/vertical-small.md correctly 1`] = `
       class="ant-steps-item-icon"
     >
       <span
-        class="ant-steps-icon anticon anticon-check"
-      />
+        class="ant-steps-icon"
+      >
+        1
+      </span>
     </div>
     <div
       class="ant-steps-item-content"
@@ -915,7 +925,7 @@ exports[`renders ./components/steps/demo/vertical-small.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-process"
+    class="ant-steps-item ant-steps-item-wait"
   >
     <div
       class="ant-steps-item-tail"
